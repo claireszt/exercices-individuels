@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>My web page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <h1>DO YOU SPEAK MORSE ?</h1>
+
+        <!-- encode section -->
+        <section>
+        <h2>Latin → Morse</h2>
+        <span><input name="inputEncode" type="text" maxlength="512" id="inputEncode" class="inputField"/>
+        <button class="button" onclick="inputEncodeBtn()">Encode</button>
+        <div id="resultEncode"></div>
+        </span>
+        </section>
+
+        <!-- decode section -->
+        <section>
+        <h2>Morse → Latin</h2>
+        <input name="inputDecode" type="text" maxlength="512" id="inputDecode" class="inputField"/>
+        <button class="button" onclick="inputDecodeBtn()">Decode</button>
+        <p id="resultDecode"></p>
+        </section>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

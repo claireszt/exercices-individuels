@@ -1,0 +1,33 @@
+h1 {
+    color: rgb(273, 72, 50);
+    background-color: rgb(248, 217, 209);
+}
+
+.button {
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    border-radius: 0px;
+    background-color: rgb(273, 72, 50);
+}
+
+.button:hover {
+    background-color: #ff6868;
+}
+
+.inputField {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box
+}
+
+.result {
+    font-size: 10em;
+}
+
+#resultDecode {
+    text-transform: capitalize;
+}

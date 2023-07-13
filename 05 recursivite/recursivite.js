@@ -51,4 +51,4 @@ console.log(sum2(numbers))
 // etape 3
 console.log(factorial(3));
 // etape 4
-console.log(fibonacci(2))
+console.log(fibonacci(10))

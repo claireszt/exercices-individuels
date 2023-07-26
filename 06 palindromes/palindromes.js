@@ -18,15 +18,10 @@ const maxDaysInMonth = (month) => {
 }
 
 const isPalindrome = (str) => {
-    const newStr = str.split("").join("").replace(/[^a-zA-Z0-9 ]/g, '')
-    const strReverse = str.split("").reverse().join("").replace(/[^a-zA-Z0-9 ]/g, '')
+    const newStr = str.split("").join("").replace(/[^a-zA-Z0-9]/g, '')
+    const strReverse = str.split("").reverse().join("").replace(/[^a-zA-Z0-9]/g, '')
 
-    if (newStr == strReverse) {
-        return true
-    }
-    else {
-        return false
-    }
+    if (newStr == strReverse) { return true } else { return false }
 }
 
 const getNextPalindromes = (x) => {
@@ -58,6 +53,3 @@ const isDatePalindrome = (date) => {
         return false
     }
 }
-
-// console.log(getNextPalindromes(8))
-console.log(isDatePalindrome('03/02/2030'))

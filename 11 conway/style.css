@@ -1,0 +1,50 @@
+.body {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    resize: none;
+    width: 400px;
+    margin: auto;
+}
+
+.inputForm label {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.inputForm input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.inputForm input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff6384;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.inputForm button {
+    background-color: #ff6384;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inputForm button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/icon.png"/>
+
+
+</head>
+
+<body>
+    <div class="game">
+        <div class="player">
+            <h1 class="title">YOUR CARDS</h1>
+            <div class="playerCards"></div>
+            <div class="nextStep">
+                <h2>What do you want to do ?</h2>
+                <div class="stepsBtns">
+                    <button id="fold">FOLD</button>
+                    <button id="play">PLAY</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="gameplay">
+            <p id="turn"></p>
+            <div class="flop">
+                <div class="turn1"></div>
+                <div class="turn2-3"></div>
+            </div>
+        </div>
+    
+        <div class="win">
+            <!-- <button class="showComputerCards">SHOW COMPUTER CARDS</button>
+            <div class="computerCards"></div> -->
+            <div class="playerHand">
+                <h2>YOUR HAND</h2>
+                <p id="getPlayerHand"></p>
+                <button class="endgameBtn" onclick="engame()">Did you win ?</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="endgame">
+        <div class="hands">
+            <div class="endgamePlayer">
+                <h2>YOUR HAND</h2>
+                <p id="showPlayerHand"></p>
+            </div>
+            <div class="endgameComputer">
+                <h2>COMPUTER'S HAND</h2>
+                <p id="showComputerHand"></p>
+            </div>
+        </div>
+        <h1 class="result"></h1>
+        <button class="restartBtn">NEW GAME</button>
+    </div>
+
+    <script src="poker.js"></script>
+</body>
+
+</html>
